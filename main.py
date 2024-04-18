@@ -1,3 +1,10 @@
+import pywhatkit.ascii_art
+import pywhatkit.core
+import pywhatkit.mail
+import pywhatkit.misc
+import pywhatkit.remotekit
+import pywhatkit.sc
+import pywhatkit.whats
 from Features.Gemini import get_response
 import pywhatkit
 import datetime
@@ -29,6 +36,13 @@ def main(query):
         elif "screenshot" in query:
             pywhatkit.take_screenshot()
             return "Done"
+
+        elif "shutdown my computer" in query:
+            conf = input("Are you sure you want to shutdown your computer? (yes/no): ")
+            if conf.lower() == "yes":
+                pywhatkit.sc.shutdown()
+            else:
+                return "Ok, do not worry. I am still here!"
 
         elif "time" in query:
             now = datetime.datetime.now()
