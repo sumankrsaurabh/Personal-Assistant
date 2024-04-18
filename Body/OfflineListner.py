@@ -1,13 +1,13 @@
 import speech_recognition as sr
 
 
-
 def listen() -> str:
     with sr.Microphone() as source:
         try:
             r = sr.Recognizer()
             print("Say something!")
-            audio = r.listen(source=source)
+            r.pause_threshold = 1
+            audio = r.listen(source, 0, 8)
             print("Processing..")
             text = r.recognize_google(audio)
             print("You said: " + text)
@@ -21,8 +21,9 @@ def listen() -> str:
                 )
             )
 
+
 def take_input():
-    text = input("Say something: ")
+    text = input("Say something: ").lower()
     return text
 
 
