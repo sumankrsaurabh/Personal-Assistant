@@ -1,0 +1,345 @@
+{
+  "intents": [
+    {
+      "tag": "open",
+      "patterns": [
+        "visit",
+        "open"
+      ],
+      "responses": [
+        "open"
+      ]
+    },
+    {
+      "tag": "start",
+      "patterns": [
+        "launch",
+        "start"
+      ],
+      "responses": [
+        "start"
+      ]
+    },
+    {
+      "tag": "google",
+      "patterns": [
+        "search",
+        "google",
+        "google search",
+        "from google",
+        "find google"
+      ],
+      "responses": [
+        "google"
+      ]
+    },
+    {
+      "tag": "youtube",
+      "patterns": [
+        "youtube",
+        "youtube",
+        "from youtube",
+        "play from youtube",
+        "search youtube"
+      ],
+      "responses": [
+        "youtube"
+      ]
+    },
+    {
+      "tag": "wikipedia",
+      "patterns": [
+        "about",
+        "wikipedia",
+        "from wikipedia",
+        "search wikipedia"
+      ],
+      "responses": [
+        "wikipedia"
+      ]
+    },
+    {
+      "tag": "music",
+      "patterns": [
+        "play music",
+        "start music",
+        "play music from spotify",
+        "spotify"
+      ],
+      "responses": [
+        "music"
+      ]
+    },
+    {
+      "tag": "exit",
+      "patterns": [
+        "exit",
+        "shutdown",
+        "shut down"
+      ],
+      "responses": [
+        "exit"
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "time",
+        "what is the time"
+      ],
+      "responses": [
+        "time"
+      ]
+    },
+    {
+      "tag": "date",
+      "patterns": [
+        "date",
+        "what is the date",
+        "which is the date today"
+      ],
+      "responses": [
+        "date"
+      ]
+    },
+    {
+      "tag": "day",
+      "patterns": [
+        "day",
+        "today"
+      ],
+      "responses": [
+        "day"
+      ]
+    },
+    {
+      "tag": "temperature",
+      "patterns": [
+        "temperature",
+        "what is the temperature",
+        "current temperature in",
+        "temperature in "
+      ],
+      "responses": [
+        "temperature"
+      ]
+    },
+    {
+      "tag": "change password",
+      "patterns": [
+        "change password",
+        "change login password",
+        "change security key"
+      ],
+      "responses": [
+        "change password"
+      ]
+    },
+    {
+      "tag": "remember",
+      "patterns": [
+        "remember",
+        "remember that",
+        "remember this "
+      ],
+      "responses": [
+        "remember"
+      ]
+    },
+    {
+      "tag": "what do you remember",
+      "patterns": [
+        "what do you remember",
+        "what do you remember that",
+        "speak remember"
+      ],
+      "responses": [
+        "what do you remember"
+      ]
+    },
+    {
+      "tag": "Joke",
+      "patterns": [
+        "jokes please",
+        "jokes",
+        "make me laugh",
+        "tell me a joke"
+      ],
+      "responses": [
+        "joke"
+      ]
+    },
+    {
+      "tag": "news",
+      "patterns": [
+        "news please",
+        "newses",
+        "today news",
+        "tell me top news hedlines"
+      ],
+      "responses": [
+        "news"
+      ]
+    },
+    {
+      "tag": "hello",
+      "patterns": [
+        "hello",
+        "hii",
+        "hey",
+        "wake up",
+        "hello jarvis"
+      ],
+      "responses": [
+        "hello Sir",
+        "How are You Sir",
+        "Always For You Sir",
+        "hello",
+        "Here's Your Assistent"
+      ]
+    },
+    {
+      "tag": "bye",
+      "patterns": [
+        "bye",
+        "see you later"
+      ],
+      "responses": [
+        "Bye Sir",
+        "It'll be nice to meet you again",
+        "see you later"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Awesome, thanks",
+        "Thanks for helping me"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "Identity",
+      "patterns": [
+        "Who are you",
+        "what are you"
+      ],
+      "responses": [
+        "I am Jarvis . A virtual assistent"
+      ]
+    },
+    {
+      "tag": "whatsup",
+      "patterns": [
+        "Whats up",
+        "Wazzup",
+        "How are you",
+        "sup",
+        "How you doing"
+      ],
+      "responses": [
+        "All good..What about you?"
+      ]
+    },
+    {
+      "tag": "haha",
+      "patterns": [
+        "haha",
+        "lol",
+        "rofl",
+        "lmao",
+        "thats funny"
+      ],
+      "responses": [
+        "Glad I could make you laugh !"
+      ]
+    },
+    {
+      "tag": "insult",
+      "patterns": [
+        "you are dumb",
+        "shut up",
+        "idiot"
+      ],
+      "responses": [
+        "Well that hurts"
+      ]
+    },
+    {
+      "tag": "activity",
+      "patterns": [
+        "what are you doing",
+        "what are you upto"
+      ],
+      "responses": [
+        "Talking to you, of course!"
+      ]
+    },
+    {
+      "tag": "exclaim",
+      "patterns": [
+        "Awesome",
+        "Great",
+        "I know",
+        "ok",
+        "yeah"
+      ],
+      "responses": [
+        "Yeah!"
+      ]
+    },
+    {
+      "tag": "appreciate",
+      "patterns": [
+        "You are awesome",
+        "you are the best",
+        "you are great",
+        "you are good"
+      ],
+      "responses": [
+        "Thank you!"
+      ]
+    },
+    {
+      "tag": "nicety",
+      "patterns": [
+        "it was nice talking to you",
+        "good talk"
+      ],
+      "responses": [
+        "It was nice talking to you as well!"
+      ]
+    },
+    {
+      "tag": "greetreply",
+      "patterns": [
+        "i am good",
+        "I'm good",
+        "i am fine",
+        " i'm fine",
+        "good"
+      ],
+      "responses": [
+        "Good to know!"
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "how old are you",
+        "when were you made",
+        "what is your age"
+      ],
+      "responses": [
+        "I was made in 2022, if that's what you are asking!"
+      ]
+    }
+  ]
+}

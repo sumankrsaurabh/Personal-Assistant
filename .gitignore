@@ -1,0 +1,12 @@
+__pycache__
+__pycache__.py
+__init__.py
+test.py
+Task.pth
+chromedriver.exe
+vosk-model-small-hi-0.22
+test.*
+.env
+
+.idea
+Data/Api.txt
