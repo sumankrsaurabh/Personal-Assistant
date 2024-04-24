@@ -2,7 +2,6 @@ import os
 from dotenv import load_dotenv
 from rich.console import Console
 from rich.markdown import Markdown
-from markdown_it import MarkdownIt
 import google.generativeai as genai
 
 load_dotenv()

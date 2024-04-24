@@ -2,21 +2,21 @@ from os import scandir, rename,mkdir
 from os.path import splitext, exists, join
 from shutil import move
 from time import sleep
-
 import logging
-
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
 # ! FILL IN BELOW
 # ? folder to track e.g. Windows: "D:\\Suman Personal\\Phone Backup\\2022-04-13"
-source_dir = "D:\\Suman Personal\\Phone Backup\\2022-04-13"
-dest_dir_sfx = "D:\\Suman Personal\\Phone Backup\\2022-04-13\\Others"
-dest_dir_music = "D:\\Suman Personal\\Phone Backup\\2022-04-13\\Music"
-dest_dir_video = "D:\\Suman Personal\\Phone Backup\\2022-04-13\\Video"
-dest_dir_image = "D:\\Suman Personal\\Phone Backup\\2022-04-13\\Image"
-dest_dir_documents = "D:\\Suman Personal\\Phone Backup\\2022-04-13\\Document"
+source_dir = "C:\\Users\\suman\\Documents"
+dest_dir_sfx = join(source_dir , "Others")
+dest_dir_music = join(source_dir , "Music")
+dest_dir_video = join(source_dir , "Video")
+dest_dir_image = join(source_dir ,"Image")
+dest_dir_documents = join(source_dir ,"Docs")
 
+
+# ? Creates Folders if not exists
 if not exists(dest_dir_documents):
     mkdir("Document")
 if not exists(dest_dir_sfx):
